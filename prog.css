@@ -2,6 +2,11 @@
  background-color: #f0e6b6;
  padding: 12px;
 }
-.body {
-  
+.imahe {
+position: absolute;
+}
+#text1 {
+    font-style:Arial;
+    position:relative;
+    left: 325px;
 }
