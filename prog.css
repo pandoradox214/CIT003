@@ -1,12 +1,37 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/*Class*/
 .header {
- background-color: #f0e6b6;
+ background-color: #2356e7;
  padding: 12px;
+ left: 40px;
 }
 .imahe {
 position: absolute;
 }
+.text_box{
+    position:relative;
+}
+.magulang{
+    position:relative;
+    background-color: #eee;
+    padding: 100px;
+    
+}
+/*Text ID*/
 #text1 {
-    font-style:Arial;
+    font-family:Arial;
     position:relative;
     left: 325px;
+    font-size: 25px;
+    color: ;
+}
+#Main_text{
+    font-family:sans-serif;
+    font-style:bold; 
+    color:#eee;
 }
