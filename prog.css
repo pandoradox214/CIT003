@@ -2,7 +2,8 @@ body{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 /*Class*/
 .header {
@@ -19,19 +20,32 @@ position: absolute;
 .magulang{
     position:relative;
     background-color: #eee;
+    padding: 50px;
+}
+.About_me{
+    background-color: #eee;
+    position: relative;
+    top: 59px;
+    left: 400px;
+    width: 900PX ;
     padding: 100px;
-    
+    border: 1px solid;
 }
 /*Text ID*/
 #text1 {
     font-family:Arial;
     position:relative;
     left: 325px;
-    font-size: 25px;
-    color: ;
+    font-size: 40px;
+    color:grey;
 }
+/*Title Entry*/
 #Main_text{
     font-family:sans-serif;
     font-style:bold; 
     color:#eee;
+}
+#_newtwo{
+    font-family: Arial;
+    color: grey;
 }
