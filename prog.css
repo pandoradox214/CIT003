@@ -8,8 +8,7 @@ body{
 /*Class*/
 .header {
  background-color: #2356e7;
- padding: 12px;
- left: 40px;
+ 
 }
 .imahe {
 position: absolute;
@@ -27,9 +26,18 @@ position: absolute;
     position: relative;
     top: 59px;
     left: 400px;
-    width: 900PX ;
+    width: 500PX ;
     padding: 100px;
-    border: 1px solid;
+    
+
+}
+/*paragraph proporties*/
+.par1{
+    font-family: Arial;
+    color: grey;
+    text-indent:50px;
+    font-size: 20px;
+    text-align: justify;
 }
 /*Text ID*/
 #text1 {
@@ -44,8 +52,4 @@ position: absolute;
     font-family:sans-serif;
     font-style:bold; 
     color:#eee;
-}
-#_newtwo{
-    font-family: Arial;
-    color: grey;
 }
